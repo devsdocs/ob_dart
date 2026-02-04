@@ -9,4 +9,4 @@ cLibVersion=5.1.0
 os=$(uname)
 cLibArgs="$*"
 
-bash <(curl -s https://raw.githubusercontent.com/devsdocs/ob_dart/download.sh) ${cLibArgs} ${cLibVersion}
+bash <(curl -s https://raw.githubusercontent.com/devsdocs/ob_dart/main/download.sh) ${cLibArgs} ${cLibVersion}
